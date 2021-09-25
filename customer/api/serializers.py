@@ -24,6 +24,7 @@ class CustomerCreateSerializer(CustomerSerializer):
     def create(self, validated_data):
         user = User.objects.create(**validated_data.pop('user'))
         user.set_password('customer@123$')
+        user.save()
         customer = Customer.objects.create(user=user, dob=validated_data['dob'])
         return customer
 
