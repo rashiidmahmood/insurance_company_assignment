@@ -31,4 +31,5 @@ urlpatterns = [
     # internal
     path('admin/', admin.site.urls),
     path("api/", include("customer.api.urls")),
+    path("api/", include("insurance.api.urls")),
 ]
