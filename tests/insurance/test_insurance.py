@@ -1,4 +1,3 @@
-from django.contrib.auth.models import User
 from django.urls import reverse
 from rest_framework import status
 from rest_framework.test import APITestCase
@@ -7,7 +6,6 @@ from insurance.models import Quote
 from users.factories import UserFactory
 from customer.factories import CustomerFactory
 from insurance.factories import PolicyFactory, QuoteFactory
-from customer.models import Customer
 
 
 class Tests(APITestCase):
