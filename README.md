@@ -46,7 +46,7 @@
 10. Following credentials can be used to authenticate staff user:
     <br>`username: admin@gmail.com`
     <br>`password: admin@123$`
-    Or new superuser can be created using below management command:
+    <br>Or new superuser can be created using below management command:
     <br>`$ python3 manage.py createsuperuser`
 
 
