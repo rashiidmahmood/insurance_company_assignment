@@ -2,7 +2,7 @@
 
 ## Docker setup
 ### Clone your repo
-    $ git clone https://github.com/Rashiddev/assignment.git
+    $ git clone https://github.com/rashiidmahmood/insurance_company_assignment.git
 
 ### Make sure docker is installed on your system and run following commands inside your project directory:
 
